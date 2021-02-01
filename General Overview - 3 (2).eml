@@ -1,0 +1,22 @@
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="utf-8"
+
+<html data-page="3"
+        data-canvas="2"
+        data-site="/sites/ComputerVision"
+        data-list="19:c7b672344c674e66bbeec03dc48fe9d2@thread.tacv2_wiki"
+        data-tabId="tab::acff3c5c-d9c1-4c45-abab-4ece3bd90e30"
+        data-slug="General"
+        data-threadId="19:c7b672344c674e66bbeec03dc48fe9d2@thread.tacv2"<body><h3 class="wiki-mht-note">This page is automatically updated from the Wiki in Microsoft Teams - any changes made here will be overwritten. To edit this page, open it in Microsoft Teams.</h3>
+<h1 id="wiki-mht-page-title-3">General Overview</h1>
+<h3 id="wiki-mht-section-title-4">Make Training Data</h3>
+<p id="wiki-mht-section-content-4"><div>We use a program called Labelme that allows us to label images into different sections. It saves the coordinates of the different labeled elements in the images.</div>
+</p>
+<h3 id="wiki-mht-section-title-5">Train a Model</h3>
+<p id="wiki-mht-section-content-5"><div>We use Detectron2 to learn from the training data we create to be able to predict where the labeled things are in new images.</div>
+</p>
+<h3 id="wiki-mht-section-title-6">Handwriting Recognition/Optical Character Recognition</h3>
+<p id="wiki-mht-section-content-6"><div>We then use Machine Learning to do HWR of the segments we get from detectron2 if they are handwritten, or OCR if the record is printed. </div>
+</p>
+</body></html>
